@@ -3,12 +3,14 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
 about: []
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: ',  (2022) TravelingDirection_2021 (Version draft) [Data set]. DANDI archive.
+citation: ',  (2024) TravelingDirection_2021 (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000141/draft'
 contributor:
 - affiliation: []
@@ -31,7 +33,7 @@ manifestLocation:
 name: TravelingDirection_2021
 protocol: []
 relatedResource: []
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
